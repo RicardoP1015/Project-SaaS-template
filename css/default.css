@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    max-width: 200px;
+}
+
+.btn {
+    background-color: rgb(47, 91, 234);
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 15px 25px;
+    border-radius: 2.25rem;
+    transition: ease-in-out 0.3s;
+    max-width: 200px;
+}
+
+.container { margin: 0 5%; }

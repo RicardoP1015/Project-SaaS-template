@@ -1,0 +1,950 @@
+nav .navbar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+    margin: 15px 5%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 500;
+    transition: ease-in-out 0.3s;
+}
+
+.navbar.sticky {
+    background: gray;
+    box-shadow: 0px 0px 20px rgba(48, 63, 100, 0.2);
+}
+
+.navbar.sticky .navbar-toggler span,
+.navbar.sticky .navbar-brand {
+    color: white;
+}
+
+.navbar-toggler {
+    position: absolute;
+    outline: none;
+    right: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+    bottom: 6px;
+}
+
+.navbar-toggler span {
+    color: #666;
+    font-size: 60px;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+[aria-controls="navbarDropdown"] {
+    display: none;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 100%;
+    transition: ease-in-out 0.3s;
+    color: #666;
+   
+}
+
+.nav-link a {
+    color: #666;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    font-family: "Hind", sans-serif;
+    text-transform: uppercase;
+    margin-right: 40px;
+    line-height: 20px;
+}
+
+
+.main-icon {
+    max-width: 250px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+    font-size: 19px;
+}
+
+.navbar ul li a {
+    color: gray;
+}
+
+.navbar ul li .btn a {
+    color: white;
+    font-size: 19px;
+}
+
+.navbar ul li .btn {
+    padding: 12px 24px;
+}
+
+.navbar ul {
+    margin-left: auto;
+    margin-right: 2%;
+    align-items: center;
+}
+
+.website-header {
+    margin-top: 180px;
+}
+
+.website-header .container {
+    margin: 0 5%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 160px;
+}
+
+.website-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.website-info h1 {
+    font-size: 75px;
+    font-weight: 100;
+    margin-bottom: 0;
+    padding: 0 10px;
+}
+
+.website-info p {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 55px;
+    text-align: justify;
+}
+
+.website-info a {
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+.website-info .btn {
+    margin-right: 3%;
+    font-size: 16px;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 25px;
+}
+
+.website-info .links {
+    display: flex;
+    align-items: center;
+}
+
+.links .btn a {
+    color: white;
+    font-size: 20px;
+
+}
+
+.media-grid {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(3, minmax(20px, 1fr));
+    grid-template-rows: repeat(3, minmax(150px, 1fr));
+}
+
+.icon {
+    max-width: 85px;
+    height: fit-content;
+}
+
+.google {
+    box-shadow: 1px 1px 10px -1px;
+    padding: 11px;
+    border-radius: 50%;
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.atlassian {
+    box-shadow: 1px 1px 10px -1px;
+    padding: 19px;
+    border-radius: 50%;
+    max-width: 110px;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.asana {
+    box-shadow: 1px 1px 10px -1px;
+    padding: 18px;
+    border-radius: 50%;
+    max-width: 110px;
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: center;
+}
+
+.paypal {
+    box-shadow: 1px 1px 10px -1px;
+    padding: 18px;
+    border-radius: 50%;
+    max-width: 110px;
+    align-self: flex-end;
+    justify-self: center;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.google-a {
+    box-shadow: 1px 1px 10px -1px;
+    padding: 10px;
+    border-radius: 50%;
+    align-self: end;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.weave {
+    box-shadow: 1px 1px 10px -1px;
+    padding: 15px;
+    border-radius: 50%;
+    max-width: 110px;
+    align-self: flex-end;
+    justify-self: end;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+
+.calender {
+    box-shadow: 1px 1px 10px -1px;
+    padding: 17px;
+    border-radius: 50%;
+    max-width: 110px;
+    align-self: end;
+    justify-self: center;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.kb {
+    margin-top: 220px;
+}
+
+.kb-header {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.kb-header h2 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.kb-header p {
+    font-size: 25px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
+    margin-bottom: 200px;
+    gap: 35px;
+
+}
+
+.card-grid .card {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 21px -9px;
+    padding: 40px 15px;
+
+}
+
+.card .kb-icon {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+.card h4 {
+    margin: 18px 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card h4 span {
+    font-size: 21px;
+    background-color: rgb(25, 180, 59);
+    padding: 3px 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 13px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+
+}
+
+.card p {
+    font-size: 25px;
+    line-height: 1.6;
+    color: gray;
+    margin-top: 10px;
+}
+
+.card a {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.software-plp {
+    margin-bottom: 100px;
+
+}
+
+.software-plp .container {
+    display: flex;
+    background-color: rgba(102, 148, 222, 0.104);
+    padding-top: 150px;
+
+}
+
+.software-plp .des-1 {
+    margin-left: 2%;
+}
+
+.software-plp h2 {
+    font-size: 40px;
+    font-weight: 500;
+    max-width: 500px;
+}
+
+.software-banner {
+    max-width: 800px;
+    margin-left: 6%;
+}
+
+.software-plp .btn {
+    max-width: 180px;
+    padding: 16px 30px;
+}
+
+.software-plp .btn a {
+    font-size: 20px;
+    color: white;
+}
+
+.why-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.why-header h3 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.why-header p {
+    font-size: 25px;
+    color: gray;
+}
+
+.dotted-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 190px;
+}
+
+.item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 2px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: rgba(91, 139, 146, 0.169);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.inner-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+    left: 44%;
+    top: 45%;
+}
+
+.line {
+    width: 240px;
+    height: 2px;
+    background-color: rgba(91, 139, 146, 0.169);
+}
+
+.label {
+    margin-top: 10px;
+    font-size: 20px;
+    position: absolute;
+    top: 95px;
+}
+
+.banner-video {
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.play-vid {
+    position: absolute;
+    z-index: 100;
+    border-radius: 50%;
+    left: 45%;
+    right: auto;
+    font-size: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px;
+    top: 45%;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    padding: 10px;
+    bottom: auto;
+    border: none;
+    color: black;
+}
+
+.play-btn {
+    font-size: 24px;
+    position: relative;
+    left: 2px;
+    color: black;
+    bottom: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.about-employee {
+    display: flex;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.employee-bg {
+    max-width: 500px;
+}
+
+.employee-wrapper {
+    min-width: 650px;
+    height: 690px;
+}
+
+.employee-bg {
+    position: absolute;
+    max-width: 270px;
+    top: 125px;
+    left: 15px;
+}
+
+.employee-1 {
+    position: absolute;
+    max-width: 500px;
+    left: 80px;
+}
+
+.employee-info p {
+    font-size: 37px;
+    font-weight: 100;
+}
+
+.hubspot-logo {
+    max-width: 200px;
+}
+
+.employee-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.employee-info h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.employee-name h5 {
+    margin-top: 0;
+    color: gray;
+    font-size: 14px;
+}
+
+.tbwb h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 45px;
+    font-weight: 100;
+    color: gray;
+}
+
+.logo-line {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+
+.cp-logo {
+    max-width: 180px;
+}
+
+.pricing {
+    margin-bottom: 100px;
+}
+
+.pricing-header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.pricing-header h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.pricing-header h4 {
+    font-size: 20px;
+    font-weight: 100;
+    color: gray;
+    margin-top: 9px;
+}
+
+.pricing-chart {
+    display: flex;
+}
+
+.price-card {
+    box-shadow: 0px 9px 20px -6px;
+    padding: 40px 50px;
+    max-width: 550px;
+}
+
+.price-card h2 {
+    font-size: 75px;
+}
+
+.price-card h2 span {
+    font-size: 30px;
+    color: gray;
+}
+
+.price-card hr {
+    margin: 0px 0 30px 3px;
+}
+
+.price-card p {
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.price-card .btn {
+    padding: 17px 25px;
+    max-width: 150px;
+}
+
+.price-card .btn a {
+    color: white;
+    font-size: 15px;
+}
+
+.price-card h5 {
+    color: gray;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin-left: 5%;
+    gap: 40px;
+}
+
+.info-card {
+    padding: 10px;
+    max-width: 600px;
+}
+
+.info-logo {
+    max-width: 85px;
+}
+
+.info-grid h3 {
+    font-size: 24px;
+}
+
+.info-grid p {
+    font-size: 21px;
+}
+
+.info-card h3 span {
+    font-size: 16px;
+    padding: 5px 14px;
+    background: rgb(25, 180, 59);
+    border-radius: 20px;
+    color: white;
+}
+
+.hire-us {
+    background-color: rgba(2, 25, 71, 0.946);
+    margin-bottom: 100px;
+    padding-bottom: 40px;
+}
+
+.hire-us .container {
+    display: flex;
+}
+
+.hire-us-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 120px;
+}
+
+.hire-us-header h3 {
+    font-size: 45px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.hire-us-header p {
+    font-size: 25px;
+    max-width: 215px;
+    margin-bottom: 40px;
+    color: gray;
+}
+
+.hire-us-header hr {
+    max-width: 235px;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
+
+.hire-us-header .love-front {
+    font-size: 25px;
+    max-width: 460px;
+    color: white;
+}
+
+.commercials h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.commercials p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    color: gray;
+}
+
+.small-faces {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 245px;
+    ;
+}
+
+.fm2 {
+    max-width: 45px;
+}
+
+.fm1 {
+    max-width: 40px;
+}
+
+.m1 {
+    max-width: 60px;
+}
+
+.small-faces .people img {
+    border-radius: 50%;
+}
+
+.front-form {
+    margin-left: auto;
+    background: white;
+    border: 1px solid black;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 662px;
+}
+
+.front-form h2 {
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.front-form .name-col,
+.front-form .budget-country,
+.front-form .about-project,
+.front-form .email-option {
+    margin-bottom: 20px;
+}
+
+.name-col input,
+.budget-country input,
+.budget-country select {
+    width: 280px;
+    height: 55px;
+    margin-right: 3%;
+    font-size: 20px;
+    color: gray;
+    padding: 10px;
+}
+
+.front-form textarea {
+    width: 585px;
+    height: 220px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.checkbox-wrapper {
+    display: flex;
+}
+
+.checkbox-wrapper label {
+    margin-left: 4%;
+    font-size: 24px;
+    max-width: 500px;
+    color: gray;
+    font-weight: 100;
+}
+
+.checkbox-wrapper input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.checkbox-wrapper input[type="checkbox"]::after {
+    appearance: none;
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgba(130, 134, 133, 0.584);
+}
+
+.checkbox-wrapper input[type="checkbox"]:hover {
+    background-color: rgba(130, 134, 133, 0.584);
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked {
+    background-color: aqua;
+    transition: 0.1s;
+}
+
+.checkbox-wrapper input[type="checkbox"]:checked::after {
+    display: block;
+}
+
+.policy {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.policy a {
+    text-decoration: dotted;
+    text-decoration-line: revert;
+    color: black;
+    margin: 0 4%;
+    font-size: 20px;
+}
+
+.policy a.selected {
+    color: blue;
+}
+
+.submit-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-wrapper .btn {
+    padding: 20px 30px;
+    font-size: 16px;
+}
+
+.top-footer {
+    display: flex;
+}
+
+.top-footer .col {
+    margin-right: 7%;
+}
+
+.top-footer .front-logo {
+    max-width: 200px;
+    margin-bottom: 30px;
+} 
+
+.top-footer h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.top-footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-footer li {
+    margin-bottom: 20px;
+}
+
+.top-footer li a {
+    font-size: 20px;
+    color: grey;
+}
+
+.top-footer li a span {
+    color: blue;
+}
+
+.top-footer li a span.hiring {
+    font-size: 10px;
+    background-color: blue;
+    color: white;
+    padding: 4px 7px;
+    border-radius: 4px;
+    margin-left: 3px;
+}
+
+footer hr {
+    margin: 50px 0;
+}
+
+.bottom-footer .terms-social-media {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.bottom-footer .policy-terms {
+    display: flex;
+}
+
+.policy-terms a,
+.policy-terms div {
+    font-size: 20px;
+    color: gray;
+}
+
+.policy-terms a.selected {
+    color: blue;
+}
+
+.policy-terms div {
+    margin: 0 15px;
+}
+
+.footer-media-country {
+    display: flex;
+}
+
+.footer-media-country .media-cube {
+    font-size: 20px;
+    background-color: rgba(215, 227, 245, 0.556);
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media-cube a {
+    color: gray;
+}
+
+.footer-media-country .selected {
+    background-color: gray;
+}
+
+.footer-media-country .selected a {
+    color: rgb(215, 227, 245);
+}
+
+.country-select select {
+    width: 180px;
+    font-size: 20px;
+    height: 40px;
+    background-color: rgba(215, 227, 245, 0.556);
+    border: none;
+    border-radius: 4px;
+    padding: 0 15px;
+    margin-left: 15px;
+}
+
+.footer-copyright h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    color: gray;
+}
+
+.footer-copyright p {
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    padding: 0px 250px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,689 @@
+@media screen and (max-width: 768px) {
+    [aria-controls="navbarDropdown"] {
+        display: block;
+    }
+
+    [aria-expanded="false"]~ul {
+        display: none;
+    }
+
+    [aria-expanded="true"]~ul {
+        display: flex;
+        height: 300px;
+        padding: 70px;
+        position: absolute;
+        right: 0;
+        top: 74px;
+        background-color: white;
+        width: 100%;
+        box-shadow: 0px 0px 20px rgb(52 49 75 / 10%);
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    [aria-expanded="true"]~ul li a {
+        color: #666;
+    }
+
+    .website-info h1 {
+        font-size: 70px;
+        padding: 0 100px;
+    }
+
+    .website-info p {
+        font-size: 20px;
+    }
+
+    .links .btn a {
+        font-size: 15px;
+    }
+
+    .website-info h1,
+    .website-info p {
+        text-align: center;
+    }
+
+    .website-info .links {
+        justify-content: center;
+    }
+
+    .website-header {
+        margin-top: 0;
+    }
+
+    .website-header .container {
+        gap: 125px;
+    }
+
+    .media-grid {
+        width: 700px;
+    }
+
+    .media-grid .google {
+        justify-self: self-start;
+    }
+
+    .kb-header h2 {
+        font-size: 35px;
+    }
+
+    .kb-header p {
+        font-size: 20px;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 16px;
+    }
+
+    .card .kb-icon {
+        max-width: 60px;
+    }
+
+    .card h4 {
+        font-size: 20px;
+    }
+
+    .card p,
+    .card a {
+        font-size: 18px;
+    }
+
+    .software-plp .container {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .software-plp .des-1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        align-items: center;
+    }
+
+    .software-plp h2 {
+        font-size: 30px;
+        margin-top: 50px;
+        max-width: 700px;
+    }
+
+    .software-plp .btn a {
+        font-size: 16px;
+    }
+
+    .software-banner {
+        margin-left: 0;
+    }
+
+    .why-header h3 {
+        font-size: 45px;
+    }
+
+    .why-header p {
+        font-size: 20px;
+    }
+
+    .circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .inner-circle {
+        width: 8px;
+        height: 8px;
+        left: 43%;
+        top: 47%;
+    }
+
+    .label {
+        font-size: 16px;
+    }
+
+    .line {
+        width: 120px;
+    }
+
+    .about-employee {
+        flex-direction: column;
+    }
+
+    .employee-bg {
+        max-width: 250px;
+        top: 95px;
+        left: 95px;
+    }
+
+    .employee-1 {
+        max-width: 450px;
+        left: 150px;
+    }
+
+    .employee-info {
+        align-items: center;
+    }
+
+    .employee-info p {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .cp-logo {
+        max-width: 90px;
+    }
+
+    .pricing-chart {
+        flex-direction: column;
+    }
+
+    .price-card {
+        max-width: none;
+        margin-bottom: 50px;
+    }
+
+    .price-card h2 {
+        text-align: center;
+        font-size: 70px;
+    }
+
+    .price-card p {
+        font-size: 25px;
+    }
+
+    .price-card .btn {
+        margin: 0 auto;
+    }
+
+    .price-card h5 {
+        text-align: center;
+    }
+
+    .info-logo {
+        max-width: 75px;
+    }
+
+    .info-grid h3 {
+        font-size: 20px;
+    }
+
+    .info-card h3 span {
+        font-size: 12px;
+    }
+
+    .info-grid p {
+        font-size: 17px;
+    }
+
+    .hire-us .container {
+        flex-direction: column;
+    }
+
+    .hire-us-wrapper {
+        margin-top: 0;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hire-us-header h3 {
+        font-size: 35px;
+    }
+
+    .hire-us-header p {
+        font-size: 18px;
+    }
+
+    .hire-us-header hr {
+        max-width: none;
+    }
+
+    .hire-us-header .love-front {
+        font-size: 18px;
+        max-width: 350px;
+    }
+
+    .commercials {
+        margin-left: 13%;
+    }
+
+    .commercials h3 {
+        font-size: 20px;
+    }
+
+    .commercials p {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .front-form {
+        margin-left: 0;
+        max-width: max-content;
+    }
+
+    .front-form h2 {
+        font-size: 20px;
+    }
+
+    .name-col input,
+    .budget-country input,
+    .budget-country select {
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        margin-right: 10px;
+    }
+
+    .front-form textarea {
+        width: 615px;
+        height: 160px;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+        height: 24px;
+        width: 25px;
+    }
+
+    .checkbox-wrapper label {
+        font-size: 15px;
+        margin-left: 2%;
+    }
+
+    .policy {
+        justify-content: flex-start;
+    }
+
+    .policy a {
+        font-size: 16px;
+    }
+
+    .top-footer {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(235px, 280px));
+        gap: 10px;
+    }
+
+    .top-footer .col {
+        margin-right: 0;
+    }
+
+    .top-footer .front-logo {
+        max-width: 135px;
+    }
+
+    .top-footer h2 {
+        font-size: 25px;
+    }
+
+    .top-footer li {
+        margin-bottom: 10px;
+    }
+
+    .top-footer li a {
+        font-size: 15px;
+    }
+
+    .top-footer .col:nth-child(4) {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+    .top-footer .col:nth-child(5) {
+        grid-row: 2;
+        grid-column: 3;
+    }
+
+    .policy-terms a,
+    .policy-terms div {
+        font-size: 16px;
+    }
+
+    .footer-media-country .media-cube {
+        width: 30px;
+        height: 30px;
+        margin: 0 7px;
+    }
+
+    .media-cube a {
+        font-size: 16px;
+    }
+
+    .country-select select {
+        width: 150px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .footer-copyright h2,
+    .footer-copyright p {
+        font-size: 16px;
+    }
+
+    .footer-copyright p {
+        padding: 0;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        margin: 0px 2%;
+    }
+
+    nav .navbar {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    }
+
+    .navbar-toggler {
+        bottom: -10px;
+    }
+
+    [aria-expanded="true"]~ul {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
+
+    .website-header .container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 50px;
+    }
+
+    .main-icon {
+        max-width: 160px;
+    }
+
+    .website-info h1 {
+        padding: 0;
+        font-size: 35px;
+    }
+
+    .website-info p {
+        font-size: 17px;
+        padding: 0 20px;
+    }
+    
+    .links .btn a {
+        font-size: 15px;
+    }
+
+    .website-info a {
+        font-size: 17px;
+    }
+
+    .website-info .btn {
+        padding: 15px 27px;
+        margin-right: 5%;
+    }
+    
+    .media-grid {
+    max-width: fit-content;
+    grid-template-columns: repeat(3, minmax(10px, 120px));
+    grid-template-rows: repeat(3, minmax(50px, 90px));
+    }
+
+    .icon {
+        max-width: 55px;
+    }
+
+    .atlassian,
+    .asana,
+    .paypal,
+    .weave {
+        max-width: 80px;
+    }
+
+    .calender {
+        max-width: 90px;
+    }
+
+    .kb {
+        margin-top: 100px;
+    }
+
+    .card-grid {
+        margin-bottom: 50px;
+    }
+
+    .software-plp .des-1 {
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+    .why-header h3 {
+        font-size: 40px;
+    }
+
+    .dotted-line {
+        flex-direction: column;
+        align-items: stretch;
+        margin-bottom: 50px;
+    }
+
+    .item {
+        flex-direction: row;
+        align-items: initial;
+    }
+
+    .item .circle {
+        margin-right: 50px;
+        margin-bottom: 25px;
+    }
+
+    .item .label {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .item .line {
+        display: none;
+    }
+
+    .item .label {
+        position: initial;
+    }
+
+    .play-vid {
+        left: 40%;
+        top: 26%;
+        width: 65px;
+        height: 65px;
+    }
+
+    .play-btn {
+        left: 2px;
+        bottom: 13px;
+    }
+
+    .employee-wrapper {
+        min-width: unset;
+        height: 450px;
+    }
+
+    .employee-bg {
+        max-width: 160px;
+        top: 55px;
+        left: 15px;
+    }
+
+    .employee-1 {
+        max-width: 280px;
+        left: 55px;
+    }
+
+    .hubstop-logo {
+        max-width: 180px;
+    }
+
+    .employee-info p {
+        font-size: 27px;
+    }
+
+    .employee-info h4 {
+        margin-bottom: 5px;
+    }
+
+    .tbwb h3 {
+        font-size: 24px;
+    }
+
+    .logo-line {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .cp-logo {
+        margin-bottom: 20px;
+        max-width: 120px;
+    }
+
+    .price-card {
+        padding: 5px 40px;
+    }
+
+    .price-card h2 {
+        font-size: 60px;
+    }
+
+    .price-card p {
+        font-size: 22px;
+    }
+
+    .price-card h5 {
+        margin-bottom: 50px;
+    }
+
+    .hire-us-wrapper {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .hire-us-header {
+        text-align: center;
+    }
+
+    .hire-us-header p {
+        max-width: none;
+    }
+
+    .hire-us-header .love-front {
+        padding: 0 20px;
+    }
+
+    .commercials {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .front-form .name-col,
+    .front-form .budget-country,
+    .front-form .about-project,
+    .front-form .email-option {
+        margin-bottom: 0;
+    }
+
+    .name-col input,
+    .budget-country input,
+    .budget-country select {
+        margin-bottom: 20px;
+    }
+
+    .front-form textarea {
+        width: 300px;
+    }
+
+    .checkbox-wrapper {
+        margin-top: 20px;
+    }
+
+    .checkbox-wrapper input[type="checkbox"] {
+        width: 65px;
+    }
+
+    .checkbox-wrapper label {
+        margin-left: 4%;
+        font-size: 18px;
+    }
+
+    .policy {
+        margin-top: 20px;
+    }
+
+    .policy a {
+        margin-left: 40px;
+    }
+
+    .policy a.selected {
+        display: none;
+    }
+
+    .top-footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .top-footer .front-logo {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .top-footer li {
+        margin-bottom: 15px;
+    }
+
+    .top-footer li a {
+        font-size: 20px;
+    }
+
+    footer hr {
+        max-width: 300px;
+        margin: 50px auto;
+    }
+
+    .bottom-footer .terms-social-media {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-footer .policy-terms {
+        margin-bottom: 30px;
+    }
+
+    .footer-media-country {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-media-country .media-cube {
+        width: 40px;
+        height: 40px;
+    }
+
+    .country-select {
+        margin-top: 30px;
+    }
+
+    .country-select select {
+        height: 40px;
+    }
+
+    .footer-copyright h2 {
+        padding: 0 20px;
+    }
+
+    .footer-copyright p {
+        padding: 0 40px;
+        font-size: 17px;
+    }
+
+
+
+}
