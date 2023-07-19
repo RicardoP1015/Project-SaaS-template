@@ -25,6 +25,10 @@
         color: #666;
     }
 
+    .navbar-toggler span {
+        font-size: 50px;
+    }
+
     .website-info h1 {
         font-size: 70px;
         padding: 0 100px;
@@ -189,6 +193,11 @@
 
     .price-card p {
         font-size: 25px;
+    }
+
+    .card h4 span {
+        font-size: 15px;
+        position: initial;
     }
 
     .price-card .btn {
@@ -486,18 +495,6 @@
 
     .item .label {
         position: initial;
-    }
-
-    .play-vid {
-        left: 40%;
-        top: 26%;
-        width: 65px;
-        height: 65px;
-    }
-
-    .play-btn {
-        left: 2px;
-        bottom: 13px;
     }
 
     .employee-wrapper {

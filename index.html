@@ -16,97 +16,98 @@
 <body>
 
     <!-- NavBar -->
+    <div class="backgroud-color">
+        <nav class=".sticky">
+            <div class="navbar">
 
-    <nav class=".sticky">
-        <div class="navbar">
+                <div class="img main-icon">
+                    <img src="./assets/images/project_logo/logo.svg" alt="Front">
+                </div>
 
-            <div class="img main-icon">
-                <img src="./assets/images/project_logo/logo.svg" alt="Front">
+                <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
+                    <span>&#9776;</span>
+                </button>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#learn">Learn</a>
+                    </li>
+                    <li>
+                        <a href="#pricing">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#hire-us">Hire us</a>
+                    </li>
+                    <li>
+                        <div class="btn">
+                            <a href="">Buy Now</a>
+                        </div>
+                    </li>
+                </ul>
+
             </div>
 
-            <button class="navbar-toggler" aria-expanded="false" aria-controls="navbarDropdown">
-                <span>&#9776;</span>
-            </button>
-            <ul>
-                <li>
-                    <a href="">Home</a>
-                </li>
-                <li>
-                    <a href="">Features</a>
-                </li>
-                <li>
-                    <a href="">Learn</a>
-                </li>
-                <li>
-                    <a href="">Pricing</a>
-                </li>
-                <li>
-                    <a href="">Hire us</a>
-                </li>
-                <li>
-                    <div class="btn">
-                        <a href="">Buy Now</a>
+        </nav>
+
+        <!-- Website Header -->
+
+        <section class="website-header">
+
+            <div class="container">
+                <div class="website-info">
+                    <h1>Empowering teams with the freedom</h1>
+                    <p>Own the unlimited power of the web development</p>
+                    <div class="links">
+                        <div class="btn">
+                            <a href="">
+                                <i class="fa-sharp fa-solid fa-circle-play"></i>
+                                <span>Play Video</span>
+                            </a>
+                        </div>
+                        <a href="">Learn more</a>
                     </div>
-                </li>
-            </ul>
+                </div>
 
-        </div>
-
-    </nav>
-
-    <!-- Website Header -->
-
-    <section class="website-header">
-
-        <div class="container">
-            <div class="website-info">
-                <h1>Empowering teams with the freedom</h1>
-                <p>Own the unlimited power of the web development</p>
-                <div class="links">
-                    <div class="btn">
-                        <a href="">
-                            <i class="fa-sharp fa-solid fa-circle-play"></i>
-                            <span>Play Video</span>
-                        </a>
+                <div class="media-grid">
+                    <div class="google icon item-grid">
+                        <img class="" src="./assets/images/logo_icons/google.png" alt="google-png">
                     </div>
-                    <a href="">Learn more</a>
+                    <div class="atlassian icon item-grid">
+                        <img src="./assets/images/logo_icons/atlassian.png" alt="atlassian-png">
+                    </div>
+                    <div class="asana icon item-grid">
+                        <img src="./assets/images/logo_icons/asana.png" alt="asana-png">
+                    </div>
+                    <div class="paypal icon item-grid">
+                        <img src="./assets/images/logo_icons/paypal.jpg" alt="paypal-jpg">
+                    </div>
+                    <div class="google-a icon item-grid">
+                        <img src="./assets/images/logo_icons/google-A.png" alt="google-a-png">
+                    </div>
+                    <div class="weave icon item-grid">
+                        <img src="./assets/images/logo_icons/weave.png" alt="weave-png">
+                    </div>
+                    <div class="calender icon item-grid">
+                        <img src="./assets/images/logo_icons/calendar.png" alt="calender-png">
+                    </div>
                 </div>
             </div>
 
-            <div class="media-grid">
-                <div class="google icon ">
-                    <img class="" src="./assets/images/logo_icons/google.png" alt="google-png">
-                </div>
-                <div class="atlassian icon">
-                    <img src="./assets/images/logo_icons/atlassian.png" alt="atlassian-png">
-                </div>
-                <div class="asana icon">
-                    <img src="./assets/images/logo_icons/asana.png" alt="asana-png">
-                </div>
-                <div class="paypal icon">
-                    <img src="./assets/images/logo_icons/paypal.jpg" alt="paypal-jpg">
-                </div>
-                <div class="google-a icon">
-                    <img src="./assets/images/logo_icons/google-A.png" alt="google-a-png">
-                </div>
-                <div class="weave icon">
-                    <img src="./assets/images/logo_icons/weave.png" alt="weave-png">
-                </div>
-                <div class="calender icon">
-                    <img src="./assets/images/logo_icons/calendar.png" alt="calender-png">
-                </div>
-            </div>
-        </div>
+        </section>
 
-    </section>
-
+    </div>
     <!-- Key Benefits -->
 
     <section class="kb">
 
         <div class="container">
 
-            <div class="kb-header">
+            <div class="kb-header" id="features">
                 <h2>Key Benefits</h2>
                 <p>Design faster with growing array of beautiful templates</p>
             </div>
@@ -205,7 +206,7 @@
 
         <div class="container">
 
-            <div class="why-header">
+            <div class="why-header" id="learn">
                 <h3>Why front?</h3>
                 <p>Front is an incredibly beautiful, fully responsive , and mobile-first projects on<br>
                     the web - it is the
@@ -312,7 +313,7 @@
 
     <!-- Pricing -->
 
-    <section class="pricing">
+    <section class="pricing" id="pricing">
 
         <div class="container">
 
@@ -341,7 +342,7 @@
 
                 <div class="info-grid">
 
-                    <div class="info-card">
+                    <div class="info-card pricing-item">
                         <div class="info-logo">
                             <img src="./assets/images/icons/components.svg" alt="components">
                         </div>
@@ -353,7 +354,7 @@
                         </p>
 
                     </div>
-                    <div class="info-card">
+                    <div class="info-card pricing-item">
                         <div class="info-logo">
                             <img src="./assets/images/icons/images.svg" alt="images">
                         </div>
@@ -364,7 +365,7 @@
                         </p>
 
                     </div>
-                    <div class="info-card">
+                    <div class="info-card pricing-item">
                         <div class="info-logo">
                             <img src="./assets/images/icons/cancel.svg" alt="cancel">
                         </div>
@@ -374,7 +375,7 @@
                         </p>
 
                     </div>
-                    <div class="info-card">
+                    <div class="info-card pricing-item">
                         <div class="info-logo">
                             <img src="./assets/images/icons/moneyback.svg" alt="moneyback">
                         </div>
@@ -394,7 +395,7 @@
 
     <!-- Hire Us -->
 
-    <section class="hire-us">
+    <section class="hire-us" id="hire-us">
 
         <div class="container">
 
@@ -888,6 +889,29 @@
         }
 
         navButton.addEventListener('click', toggleNav);
+
+        const pricingItem = document.querySelectorAll(".pricing-item");
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationDelay = "1s";
+                    entry.target.style.animationPlayState = 'running';
+                    observer.unobserve(entry.target);
+                }
+            });
+
+        }, {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        });
+
+        pricingItem.forEach(pricingItem => {
+            pricingItem.style.animationPlayState = 'paused';
+            observer.observe(pricingItem);
+        });
+
     </script>
 </body>
 
