@@ -1,0 +1,15 @@
+# .gitignore
+
+# Logs
+*.log
+
+# Directories used by tools like sass for cache
+.sass-cache/
+.cache/
+
+# Node modules directory
+node_modules/
+
+# OS generated files
+.DS_Store
+Thumbs.db
